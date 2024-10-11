@@ -21,19 +21,21 @@ body {
     margin: 0;
     justify-content: space-around;
     align-items: center;
-    gap: 40px;
+    /* gap: 40px; */
     background-color: #1F2937;
     padding: 10px;
 }
 
 .lefthead {
     font-size: 24px;
+    width: auto;
+    flex-basis: 20%;
 }
 
 .righthead {
     display: flex;
     font-size: 18px;
-    gap: 25px;
+    width: auto;
 }
 
 /* .top, .middle, .bottom {
@@ -78,6 +80,12 @@ body {
 
 /* image settings */
 
+.lefthead img {
+    width: 60%;
+    height: auto;
+    min-width: 100px;
+}
+
 .topright img {
         width: 100%;
         height: auto;
@@ -88,6 +96,25 @@ body {
 
 a {
     text-decoration: none;
+}
+
+ul {
+    display: flex;
+    padding-right: 25px;
+    flex: auto;
+}
+
+
+nav li + li:before{
+    content: " | ";
+    color: #F9FAF8;
+    padding: 0 1em;
+    flex: auto;
+}
+
+li {
+    list-style: none;
+    flex: auto;
 }
 
 /* span elements formatting */
