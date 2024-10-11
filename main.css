@@ -120,6 +120,33 @@ body {
     flex-direction: column;
 }
 
+.bottom {
+    height: 280px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+}
+
 /* image settings */
 
 .lefthead img {
@@ -195,6 +222,25 @@ li {
     height: 150px;
     width: 80%;
     flex: auto;
+}
+
+.quote {
+    width: 45%;
+    height: auto;
+    font-size: 36px;
+    color:#1F2937;
+    align-self: center;
+}
+
+.sig {
+    width: 20%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 900;
+    color:#1F2937;
+    margin: 10px;
+    align-self: center;
+    padding-left: 22%;
 }
 
 button {
