@@ -184,9 +184,9 @@ ul {
 
 
 nav li + li:before{
-    content: " | ";
+    content: "|";
     color: #F9FAF8;
-    padding: 0 1em;
+    padding: 1em;
     flex: auto;
     list-style: none;
 }
