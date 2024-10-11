@@ -1,8 +1,10 @@
 /* CSS to be added to this file as the landing page begins to be developed */
 
 body {
+    display: flex;
     font-family: Roboto;
     margin: 0;
+    min-width: 100%;
 }
 
 .master {
