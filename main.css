@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto;
+    margin: 0;
 }
 
 .master {
@@ -14,10 +15,43 @@ body {
 }
 
 .header {
-    
+    height: 60px;
+    width: auto;
+    flex: auto;
+    margin: 0;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 5px;
+}
+
+.lefthead {
+    font-size: 24px;
+}
+
+.righthead {
+    display: flex;
+    font-size: 18px;
+    gap: 25px;
 }
 
 .top, .middle, .bottom {
     display: flex;
-    border: 5px black;
+}
+
+/* text decorations */
+
+a {
+    text-decoration: none;
+}
+
+/* span elements formatting */
+
+.white {
+    color: #F9FAF8;
+}
+
+.offwhite {
+    color: #E5E7EB;
 }
