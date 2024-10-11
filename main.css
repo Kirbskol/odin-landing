@@ -1,1 +1,23 @@
 /* CSS to be added to this file as the landing page begins to be developed */
+
+body {
+    font-family: Roboto;
+}
+
+.master {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+}
+
+.header {
+    
+}
+
+.top, .middle, .bottom {
+    display: flex;
+    border: 5px black;
+}
