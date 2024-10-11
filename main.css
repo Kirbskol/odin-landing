@@ -5,6 +5,7 @@ body {
     font-family: Roboto;
     margin: 0;
     min-width: 100%;
+    flex: auto;
 }
 
 .master {
@@ -80,6 +81,45 @@ body {
     flex-basis: 35%;
 }
 
+.middle {
+    height: 280px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.midup {
+    display: flex;
+    flex: auto;
+    margin-bottom: 20px;
+}
+
+
+.midlow {
+    display: flex;
+    flex: auto;
+    width: 70%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 25px;
+    border: 3px solid #1f376a;
+    padding: 20px;
+    height: auto;
+    width: 30%;
+    align-self: center;
+}
+
+.football, .basketball, .media, .community {
+    display: flex;
+    flex-direction: column;
+}
+
 /* image settings */
 
 .lefthead img {
@@ -91,14 +131,23 @@ body {
 .topright img {
         width: 100%;
         height: auto;
-        min-width: 200px;
+        min-width: 0;
     }
+
+.box img {
+    align-self: center;
+    height: auto;
+    width: 100%;
+    min-width: 0;
+    align-self: center;
+}
 
 /* text decorations */
 
 a {
     text-decoration: none;
 }
+
 
 ul {
     display: flex;
@@ -154,4 +203,22 @@ button {
     width: 50%;
     flex: auto;
     margin-bottom: 30px;
+    background-color: #1f376a;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.services {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: -40px;
+}
+
+.desc {
+    margin-top: 5px;
+    height: auto;
+    width: 60%;
+    align-self: center;
+    text-align: center;
 }
