@@ -110,6 +110,7 @@ nav li + li:before{
     color: #F9FAF8;
     padding: 0 1em;
     flex: auto;
+    list-style: none;
 }
 
 li {
